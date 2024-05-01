@@ -7,4 +7,5 @@ I am goign to do codeacadmey higher level python courses and hopefully finish or
 
 youtube link: "https://www.youtube.com/watch?v=q5HiD5PNuck"
 
-4/30/24, i am going to then create a draft of 
+4/30/24-5/2/24, i am going to then create a draft of the new chatbot joke so I can figure out if there are any other bugs and how to fix them
+ 

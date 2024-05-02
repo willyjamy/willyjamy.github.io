@@ -9,3 +9,4 @@ youtube link: "https://www.youtube.com/watch?v=q5HiD5PNuck"
 
 4/30/24-5/2/24, i am going to then create a draft of the new chatbot joke so I can figure out if there are any other bugs and how to fix them
  
+5/3/24, i am going to create a second draft of this, making sure that every one of my code 

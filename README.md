@@ -12,3 +12,5 @@ youtube link: "https://www.youtube.com/watch?v=q5HiD5PNuck"
 5/3/24, i am going to create a second draft of this, making sure that every one of my code 
 
 5/6, I just need to add any quality of life features on my project, to add and fix any bugs that I have on the replit. It will take a while for
+
+5/7, I think that my project is almost ready for quality of live changes such as saving and unsaving, a joke, i did encounter little bugs such as multiple lines of jokes won't be saved properly when the user asks Replit to show all the list of jokes that are saved, there were some blank lines that are left empty even when there are no jokes left to save. I think this is a setup bug that can be easily fixed through 

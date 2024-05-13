@@ -15,4 +15,4 @@ youtube link: "https://www.youtube.com/watch?v=q5HiD5PNuck"
 
 5/7, I think that my project is almost ready for quality of live changes such as saving and unsaving, a joke, i did encounter little bugs such as multiple lines of jokes won't be saved properly when the user asks Replit to show all the list of jokes that are saved, there were some blank lines that are left empty even when there are no jokes left to save. I think this is a setup bug that can be easily fixed through 
 
-5/10, I think that to fnish this off, I would need to 
+5/13, It seems to be a very good stretch so far where I am trying to add more features to have a better playing experience with playing the game. I am  e

@@ -27,4 +27,4 @@ Week of 5/20:
 
 5/23: Day 4, NO CLASS
 
-5/24: Day 5, In class today I will research more ideas for a small chatbot, listen to people's feedback who have tried it, my family, my classmates etc, pretty much they all like it so far. 
+5/24: Day 5, In class today I will research more ideas for a small chatbot, listen to people's feedback who have tried it, my family, my classmates etc, pretty much they all like it so far. Some ideas I have finalized are "joke of the day" feature that would appear on the console when the user types "best joke". What this does is that it shows them which joke was the most liked(rated) for every joke that they ask. By the end of the day, I would see which joke got the most 5 star ratings & that is the "joke of the day". I will ask people who have played it how they think about it. 

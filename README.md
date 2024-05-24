@@ -25,4 +25,4 @@ Week of 5/20:
 
 5/23: Day 4, NO CLASS
 
-5/24: Day 5, In class today and hopefuly finish by end of week 5/26, I will try to finish up the 
+5/24: Day 5, In class today I will research more ideas for a small chatbot, listen to people's feedback who have tried it, my family, my classmates etc, pretty much they all like it so far. 

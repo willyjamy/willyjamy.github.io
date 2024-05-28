@@ -29,6 +29,8 @@ Week of 5/20:
 
 5/24: Day 5, In class today I will research more ideas for a small chatbot, listen to people's feedback who have tried it, my family, my classmates etc, pretty much they all like it so far. Some ideas I have finalized are "joke of the day" feature that would appear on the console when the user types "best joke". What this does is that it shows them which joke was the most liked(rated) for every joke that they ask. By the end of the day, I would see which joke got the most 5 star ratings & that is the "joke of the day". I will ask people who have played it how they think about it. 
 
+5/28, Day 6: Today during class, I am trying to find new ideas for a chatbot to make it more engaging, what I mean by is I want users to have a better experience playing by implementing couple of quality of life features. Ultimately I'm creating joke challenges where I randomly import a joke & ask them if they can answer the question to the joke correctly, if they answer the joke correctly. They will receive a point, they will have a max number of 5 points. Since I plan to only ask 5 random jokes they've never heard before and if they do get it wrong, they lose a point. They still have the option to exit the challenges and simply choose to come back later when playing if they type "joke challenge". 
+
 SOURCES: https://www.geeksforgeeks.org/get-post-requests-using-python/amp/
          https://sv443.net/jokeapi/v2/
          https://www.youtube.com/watch?v=SNv7E-cXCu0

@@ -12,7 +12,7 @@ youtube link: "https://www.youtube.com/watch?v=q5HiD5PNuck"
 5/7, I think that my project is almost ready for quality of live changes such as saving and unsaving, a joke, i did encounter little bugs such as multiple lines of jokes won't be saved properly when the user asks Replit to show all the list of jokes that are saved, there were some blank lines that are left empty even when there are no jokes left to save. I think this is a setup bug that can be easily fixed through.
 
 
-Week of 5/20:
+Week of 5/20-5/28:
 
 5/20: Day 1, I've added a rating feature to the question where it allows users to rate the chatbot from 1-5, 1 being the worst, 5 being the best. Do know that when they rate it it doesn't tkae them out of the game, as they still can continue to play or type "no" to exit the game. In addition, for each certain rating, I've coded a response that asks why they gave the rating they chose. For example, if they chose 1(which is a terrible rating), I've coded a prompt that says ("Why didn't you like this game at all? Did you think the jokes weren't funny? Bland?). Thereon, for 2-4 I've coded a response (How could the jokebot enhance your playing experience in the future?). This asks for a user input else statement where they can type anything they wish for improvements and the system will automatically return ("Thanks for your constructive feedback, we will try to deliver high quality player experiences for you in the future!") I thought this was a great idea for players since it asks for their feedback so just in case I ran out of ideas, the more people who play the game, the more ideas I'll receive everyday. This idea came from a friend who played my game but couldn't understand the jokes so he wanted an option for his feedback. 
 

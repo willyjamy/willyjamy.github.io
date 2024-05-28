@@ -32,7 +32,11 @@ Week of 5/20:
 5/28, Day 6: Today during class, I am trying to find new ideas for a chatbot to make it more engaging, what I mean by is I want users to have a better experience playing by implementing couple of quality of life features. Ultimately I'm creating joke challenges where I randomly import a joke & ask them if they can answer the question to the joke correctly, if they answer the joke correctly. They will receive a point, they will have a max number of 5 points. Since I plan to only ask 5 random jokes they've never heard before and if they do get it wrong, they lose a point. They still have the option to exit the challenges and simply choose to come back later when playing if they type "joke challenge". 
 
 SOURCES: https://www.geeksforgeeks.org/get-post-requests-using-python/amp/
+         
          https://sv443.net/jokeapi/v2/
+         
          https://www.youtube.com/watch?v=SNv7E-cXCu0
+         
          https://www.youtube.com/watch?v=YgO5ff9sp7A
+         
          https://www.youtube.com/watch?v=eGsJR_7ipiw

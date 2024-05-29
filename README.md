@@ -37,3 +37,25 @@ SOURCES:
          https://www.youtube.com/watch?v=YgO5ff9sp7A
          
          https://www.youtube.com/watch?v=eGsJR_7ipiw
+
+         https://m.youtube.com/watch?v=crluPcyuchU&pp=ygUVRi53cml0ZSBweXRob24gc2V0dXAg
+
+https://sv443.net/jokeapi/v2/#type-param
+
+https://m.youtube.com/watch?v=tJxcKyFMTGo&pp=ygUOUHl0aG9uIG9zIHBhdGg%3D
+
+https://m.youtube.com/watch?v=2v80VM1lDjQ&pp=ygUOUHl0aG9uIG9zIHBhdGg%3D
+
+https://m.youtube.com/watch?v=KGw7ppL1ntc&pp=ygURUHl0aG9uIHdpdGggb3BlbiA%3D
+
+https://m.youtube.com/watch?v=DQRSvg54bhM&pp=ygUiaG93IHRvIGFwcGVuZCBqc29uIGRhdGEgaW4gcHl0aG9uIA%3D%3D
+
+https://m.youtube.com/watch?v=-51jxlQaxyA&pp=ygUvSG93IHRvIHdyaXRlIHNldHVwIGFuZCBkZWxpdmVyeSBjb2RlIGZvciBweXRob24%3D
+
+https://m.youtube.com/watch?v=HKfcCQeO8Og&pp=ygUVUHl0aG9uIGpva2UgZ2VuZXJhdG9y
+
+https://www.youtube.com/watch?v=o4MPGe4mLXA
+
+https://www.youtube.com/watch?v=1qNrTXsWXVQ
+
+

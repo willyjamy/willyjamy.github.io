@@ -30,7 +30,7 @@ Week of 5/28:
 
 5/29-Day 7: I have updated my python file on github after modifying on replit. This includes joke challenge
 
-5/30-Day 1: They was a problem with recently added 'joke challenge' feature yesterday on replit, the problem was when they answered the challenge wrong, it printed "you have -5star(s),". It shouldn't print negative or plus sign at all either correct or incorrect, it should've printed from a string of how many stars they have left. Since they only have 1 try to get it right, if they were to get it wrong it should've printed "you have 0 star(s)", isntead of "you have -(5) star(s)". 
+5/30-Day 1: They was a problem with recently added 'joke challenge' feature yesterday on replit, the problem was when they answered the challenge wrong, it printed "you have -5star(s),". It shouldn't print negative or plus sign at all either correct or incorrect, it should've printed from a string of how many stars they have left. Since they only have 1 try to get it right, if they were to get it wrong it should've printed "you have 0 star(s)", isntead of "you have -(5) star(s)". My goal today is to get back on replit and try to fix the star printing error so it doesn't get confusing when the user plays it. 
 
 SOURCES: 
          

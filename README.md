@@ -26,6 +26,8 @@ Week of 5/20-5/28:
 
 5/28, Day 6: Today during class, I am trying to find new ideas for a chatbot to make it more engaging, what I mean by is I want users to have a better experience playing by implementing couple of quality of life features. I have came to the idea where I randomly select 1 specific hardest joke when most people couldn't answer & ask that joke to a user. If they can answer the question to the joke correctly, they will receive 5 points, they will have a max number of 5 points per day since I plan to only ask 1 joke per day they've never heard before and people who played this before said all the jokes were extremely ahrd to get the answer too and spent a lot of time thinking but ultimately gave up trying. So 5 points would definitely make it feel rewarding to them answering the hardest jokes correctly. The joke in the joke of the day will change daily, with that being said. Eventually it will be harder & harder to answer it correctly so I thought about instead of adding 5 points per day, I'll increase the number by 5 every day so the 2nd & 3rd day will be 10, 15, so on. 
 
+5/29 Day 7: I have updated my python file on github after modifying on replit.
+
 SOURCES: 
          
          https://www.geeksforgeeks.org/get-post-requests-using-python/amp/

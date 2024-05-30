@@ -43,9 +43,10 @@ def run():
     list.append(data)
 
     while True:
-      joke_input = input("Do you want to hear another joke? Type no to exit, type save to save a joke, type unsave to unsave a joke, type saved to see the saved jokes, and anything else to continue:\n").lower()
+      joke_input = input("Do you want to hear another joke? Type no to exit, type save to save a joke, type unsave to unsave a joke, type saved to see the saved jokes, rate to rate this chatbot, script to get a funny quote and anything else to continue, challenge to see if you can answer a joke correctly on your own:\n").lower()
       if joke_input == "no":
         return
+      
       elif joke_input == "save":
         with open("saved_jokes.txt", "a") as f:
           if data["type"] == "single":
@@ -56,6 +57,7 @@ def run():
             joke = "Setup: " + setup + " Delivery: " + delivery
             f.write(joke.replace("\n", " ") + "\n")
             print("Saved joke to saved_jokes.txt")
+      
       elif joke_input == "saved":
         with open("saved_jokes.txt", "r") as f:
           j = f.readline()
@@ -68,7 +70,22 @@ def run():
               print(str(k) + ": " + j)
               j = f.readline()
               k += 1
-      elif joke_input == "script":
+      
+      elif joke_input == "joke challenge".lower():
+        stars = 0
+        print("----This is the hardest joke in the world, you have to answer it correctly to get 5 stars, if you get it wrong you will lose 5 stars----")
+        print("Can February March?")
+        answer_input = input("Enter your answer: ")
+        if answer_input == "No but April May".lower():
+          print("Correct!")
+          stars += 5
+          print("You have " + str(stars) + " star(s).")
+        else:
+          print("No, you're wrong")
+          stars -= 5
+          print("You have " + str(stars) + " star(s). ")      
+        
+        elif joke_input == "script":
         print("--------START OF SCRIPT-----------")
         with open("saved_jokes.txt", "r") as f:
           j = f.readline()

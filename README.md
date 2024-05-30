@@ -34,17 +34,17 @@ Week of 5/28:
 
 SOURCES: 
          
-         https://www.geeksforgeeks.org/get-post-requests-using-python/amp/
+https://www.geeksforgeeks.org/get-post-requests-using-python/amp/
          
-         https://sv443.net/jokeapi/v2/
+https://sv443.net/jokeapi/v2/
          
-         https://www.youtube.com/watch?v=SNv7E-cXCu0
+https://www.youtube.com/watch?v=SNv7E-cXCu0
          
-         https://www.youtube.com/watch?v=YgO5ff9sp7A
+https://www.youtube.com/watch?v=YgO5ff9sp7A
          
-         https://www.youtube.com/watch?v=eGsJR_7ipiw
+https://www.youtube.com/watch?v=eGsJR_7ipiw
 
-         https://m.youtube.com/watch?v=crluPcyuchU&pp=ygUVRi53cml0ZSBweXRob24gc2V0dXAg
+https://m.youtube.com/watch?v=crluPcyuchU&pp=ygUVRi53cml0ZSBweXRob24gc2V0dXAg
 
 https://sv443.net/jokeapi/v2/#type-param
 

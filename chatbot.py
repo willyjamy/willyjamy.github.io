@@ -82,8 +82,8 @@ def run():
           print("You have " + str(stars) + " star(s).")
         else:
           print("No, you're wrong")
-          stars -= 5
-          print("You have " + str(stars) + " star(s). ")      
+          stars = 0
+          print("You have 0 stars ")      
         
         elif joke_input == "script":
         print("--------START OF SCRIPT-----------")

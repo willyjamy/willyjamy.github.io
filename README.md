@@ -32,7 +32,9 @@ Week of 5/28:
 
 5/30-Day 1: They was a problem with recently added 'joke challenge' feature yesterday on replit, the problem was when they answered the challenge wrong, it printed "you have -5star(s),". It shouldn't print negative or plus sign at all either correct or incorrect, it should've printed from a string of how many stars they have left. Since they only have 1 try to get it right, if they were to get it wrong it should've printed "you have 0 star(s)", isntead of "you have -(5) star(s)". My goal today is to get back on replit and try to fix the star printing error so it doesn't get confusing when the user plays it. 
 
-5/31-Day 2: I have asked many people who have played the joke challenge already yesterday, including some of my friends, they wanted me to come up with harder jokes of my own instead imported from the joke api website. Since they thought the jokes yesterday were too easy and it took them a matter of seconds to get it right. Now 
+Week of 6/3:
+
+6/3-Day 3: I forgot to update my github files this weekend when I made new changes on replit, I will try my best to update all of them on my .py file today in class. Anything that's left over and hasn't been updated yet during class will definitely be updated afterschool today & will be finished before school tomorrow. More specificially, I will update new stuff from replit such as the rate the chatbot feature that I finished last week, as well as one of the best things I think to make it more fun & realistic: timed challenge. As the name suggests, timed challenge is a 10 second feature on my joke challenge feature when the user must correctly type in the joke's answer under 10 seconds. From there on, they will receive 5 stars. If they get it wrong in under 10 seconds they will get no stars. Even if they answered it right but over 10 seconds they won't receive any stars either. This has created many excitement amongst the people that's played the game. 
 
 SOURCES: 
          

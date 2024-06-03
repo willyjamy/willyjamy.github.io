@@ -2,6 +2,13 @@ import requests
 import json
 import os
 
+print('''
+
+
+''')
+
+print('''
+
 def run():
   print("Welcome to the chat bot")
 

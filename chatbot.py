@@ -96,7 +96,7 @@ def run():
   
         elif joke_input = "rate":
         rating_input == input("Please enter from 1-5 to rate this chatbot"):
-        if rating_input == "5":
+        if rating.isdigit() == 
           print("
         
         elif joke_input == "script":

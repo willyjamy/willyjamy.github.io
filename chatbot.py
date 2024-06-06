@@ -4,10 +4,21 @@ import os
 
 print('''
 
+# prints "comedy"
 
 ''')
 
 print('''
+
+# prints "chatbot"
+
+''')
+
+print('''
+
+# prints silly face
+
+''')
 
 def run():
   print("Welcome to the chat bot")

@@ -82,6 +82,7 @@ def run():
         import datetime
         after = 
         stars = 0
+        # prints 10 second timer ascii, "time is ticking" ascii
         print("----This is the hardest joke in the world, you have to answer it correctly to get 5 stars, if you get it wrong you will lose 5 stars----")
         print("Can February March?")
         answer_input = input("Enter your answer: ")

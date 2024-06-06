@@ -50,7 +50,7 @@ def run():
     list.append(data)
 
     while True:
-      joke_input = input("Do you want to hear another joke? Type no to exit, type save to save a joke, type unsave to unsave a joke, type saved to see the saved jokes, rate to rate this chatbot, script to get a funny quote and anything else to continue, challenge to see if you can answer a joke correctly on your own:\n").lower()
+      joke_input = input("Do you want to hear another joke? Type no to exit, type save to save a joke, type unsave to unsave a joke, type saved to see the saved jokes, rate to rate this chatbot, script to get a funny quote and anything else to continue, challenge to see if you can answer a joke correctly on your own, rate to rate the chatbot:\n").lower()
       if joke_input == "no":
         return
       
@@ -77,8 +77,10 @@ def run():
               print(str(k) + ": " + j)
               j = f.readline()
               k += 1
-      
+
       elif joke_input == "joke challenge".lower():
+        import datetime
+        after = 
         stars = 0
         print("----This is the hardest joke in the world, you have to answer it correctly to get 5 stars, if you get it wrong you will lose 5 stars----")
         print("Can February March?")
@@ -91,6 +93,11 @@ def run():
           print("No, you're wrong")
           stars = 0
           print("You have 0 stars ")      
+  
+        elif joke_input = "rate":
+        rating_input == input("Please enter from 1-5 to rate this chatbot"):
+        if rating_input == "5":
+          print("
         
         elif joke_input == "script":
         print("--------START OF SCRIPT-----------")

@@ -4,31 +4,73 @@ import os
 
 print('''
 
-# prints "comedy"
+  ______    ______   __       __  ________  _______   __      __ 
+ /      \  /      \ /  \     /  |/        |/       \ /  \    /  |
+/$$$$$$  |/$$$$$$  |$$  \   /$$ |$$$$$$$$/ $$$$$$$  |$$  \  /$$/ 
+$$ |  $$/ $$ |  $$ |$$$  \ /$$$ |$$ |__    $$ |  $$ | $$  \/$$/  
+$$ |      $$ |  $$ |$$$$  /$$$$ |$$    |   $$ |  $$ |  $$  $$/   
+$$ |   __ $$ |  $$ |$$ $$ $$/$$ |$$$$$/    $$ |  $$ |   $$$$/    
+$$ \__/  |$$ \__$$ |$$ |$$$/ $$ |$$ |_____ $$ |__$$ |    $$ |    
+$$    $$/ $$    $$/ $$ | $/  $$ |$$       |$$    $$/     $$ |    
+ $$$$$$/   $$$$$$/  $$/      $$/ $$$$$$$$/ $$$$$$$/      $$/     
+                                                              
 
 ''')
 
 print('''
 
-# prints "chatbot"
+  ______   __    __   ______   ________  _______    ______   ________ 
+ /      \ /  |  /  | /      \ /        |/       \  /      \ /        |
+/$$$$$$  |$$ |  $$ |/$$$$$$  |$$$$$$$$/ $$$$$$$  |/$$$$$$  |$$$$$$$$/ 
+$$ |  $$/ $$ |__$$ |$$ |__$$ |   $$ |   $$ |__$$ |$$ |  $$ |   $$ |   
+$$ |      $$    $$ |$$    $$ |   $$ |   $$    $$< $$ |  $$ |   $$ |   
+$$ |   __ $$$$$$$$ |$$$$$$$$ |   $$ |   $$$$$$$  |$$ |  $$ |   $$ |   
+$$ \__/  |$$ |  $$ |$$ |  $$ |   $$ |   $$ |__$$ |$$ \__$$ |   $$ |   
+$$    $$/ $$ |  $$ |$$ |  $$ |   $$ |   $$    $$/ $$    $$/    $$ |   
+ $$$$$$/  $$/   $$/ $$/   $$/    $$/    $$$$$$$/   $$$$$$/     $$/    
 
 ''')
 
 print('''
 
-# prints silly face
+                          oooo$$$$$$$$$$$$oooo
+                      oo$$$$$$$$$$$$$$$$$$$$$$$$o
+                   oo$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o         o$   $$ o$
+   o $ oo        o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o       $$ $$ $$o$
+oo $ $ "$      o$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$o       $$$o$$o$
+"$$$$$$o$     o$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$o    $$$$$$$$
+  $$$$$$$    $$$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$$$$$$$$$$$$$$
+  $$$$$$$$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$$$$$$  """$$$
+   "$$$""""$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     "$$$
+    $$$   o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     "$$$o
+   o$$"   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$       $$$o
+   $$$    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" "$$$$$$ooooo$$$$o
+  o$$$oooo$$$$$  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$   o$$$$$$$$$$$$$$$$$
+  $$$$$$$$"$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     $$$$""""""""
+ """"       $$$$    "$$$$$$$$$$$$$$$$$$$$$$$$$$$$"      o$$$
+            "$$$o     """$$$$$$$$$$$$$$$$$$"$$"         $$$
+              $$$o          "$$""$$$$$$""""           o$$$
+               $$$$o                 oo             o$$$"
+                "$$$$o      o$$$$$$o"$$$$o        o$$$$
+                  "$$$$$oo     ""$$$$o$$$$$o   o$$$$""  
+                     ""$$$$$oooo  "$$$o$$$$$$$$$"""
+                        ""$$$$$$$oo $$$$$$$$$$       
+                                """"$$$$$$$$$$$        
+                                    $$$$$$$$$$$$       
+                                     $$$$$$$$$$"      
+                                      "$$$""""
 
 ''')
 
 def run():
-  print("Welcome to the chat bot")
+  print("Welcome to the chat bot, I'll make u laugh!")
 
   if not os.path.exists("saved_jokes.txt"):
     with open("saved_jokes.txt", "w"):
       pass
 
   list = []
-  # call the joke endpoint
+  
   while True:
     query = input("Enter your query:")
 
@@ -90,14 +132,64 @@ def run():
               k += 1
 
       elif joke_input == "joke challenge".lower():
-        import datetime
-        after = 
-        stars = 0
-        # prints 10 second timer ascii, "time is ticking" ascii
+        stars = 0 
+        print ('''
+         .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+| |     ____     | || |     ____     | || |              | || |     __       | || |     ____     | |
+| |   .'    '.   | || |   .'    '.   | || |      _       | || |    /  |      | || |   .'    '.   | |
+| |  |  .--.  |  | || |  |  .--.  |  | || |     (_)      | || |    `| |      | || |  |  .--.  |  | |
+| |  | |    | |  | || |  | |    | |  | || |      _       | || |     | |      | || |  | |    | |  | |
+| |  |  `--'  |  | || |  |  `--'  |  | || |     (_)      | || |    _| |_     | || |  |  `--'  |  | |
+| |   '.____.'   | || |   '.____.'   | || |              | || |   |_____|    | || |   '.____.'   | |
+| |              | || |              | || |              | || |              | || |              | |
+| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+ '----------------'  '----------------'  '----------------'  '----------------'  '----------------'
+      
+        ''')
+        print('''
+        /$$$$$$$$ /$$$$$$ /$$      /$$ /$$$$$$$$
+|__  $$__/|_  $$_/| $$$    /$$$| $$_____/
+   | $$     | $$  | $$$$  /$$$$| $$      
+   | $$     | $$  | $$ $$/$$ $$| $$$$$   
+   | $$     | $$  | $$  $$$| $$| $$__/   
+   | $$     | $$  | $$\  $ | $$| $$      
+   | $$    /$$$$$$| $$ \/  | $$| $$$$$$$$
+   |__/   |______/|__/     |__/|________/
+                                         
+        ''')
+        print('''
+         /$$$$$$  /$$$$$$ 
+|_  $$_/ /$$__  $$
+  | $$  | $$  \__/
+  | $$  |  $$$$$$ 
+  | $$   \____  $$
+  | $$   /$$  \ $$
+ /$$$$$$|  $$$$$$/
+|______/ \______/ 
+                  
+        ''')
+        print('''
+         /$$$$$$$$ /$$$$$$  /$$$$$$  /$$   /$$ /$$$$$$ /$$   /$$  /$$$$$$ 
+|__  $$__/|_  $$_/ /$$__  $$| $$  /$$/|_  $$_/| $$$ | $$ /$$__  $$
+   | $$     | $$  | $$  \__/| $$ /$$/   | $$  | $$$$| $$| $$  \__/
+   | $$     | $$  | $$      | $$$$$/    | $$  | $$ $$ $$| $$ /$$$$
+   | $$     | $$  | $$      | $$  $$    | $$  | $$  $$$$| $$|_  $$
+   | $$     | $$  | $$    $$| $$\  $$   | $$  | $$\  $$$| $$  \ $$
+   | $$    /$$$$$$|  $$$$$$/| $$ \  $$ /$$$$$$| $$ \  $$|  $$$$$$/
+   |__/   |______/ \______/ |__/  \__/|______/|__/  \__/ \______/ 
+                                                              
+        ''')
         print("----This is the hardest joke in the world, you have to answer it correctly to get 5 stars, if you get it wrong you will lose 5 stars----")
         print("Can February March?")
+        import datetime
+        before = datetime.datetime.now()
         answer_input = input("Enter your answer: ")
-        if answer_input == "No but April May".lower():
+        after = datetime.datetime.now()
+
+        if (after - before).seconds >= 10:
+          print("TIME'S UP, YOU DIDN'T ANSWER IN TIME, U EARNED NO STARS :(")
+        elif answer_input == "No but April May".lower():
           print("Correct!")
           stars += 5
           print("You have " + str(stars) + " star(s).")
@@ -105,44 +197,53 @@ def run():
           print("No, you're wrong")
           stars = 0
           print("You have 0 stars ")      
-  
-        elif joke_input = "rate":
-        rating_input == input("Please enter from 1-5 to rate this chatbot"):
-        if rating.isdigit() == 
-          print("
+      elif joke_input == "rating" or joke_input == "rate":
+        while True:
+          rating = input("Please enter from 1-5 to rate this chatbot:")
+          if rating.isdigit():
+            if int(rating) <= 5:
+              print(f"Thank you for rating this chatbot {rating}/5")
+            if int(rating) < 1:
+              print("Please enter a number from 1-5")
+            if int(rating) < 5 and int(rating) > 0:
+              print("Please enter a number from 1-5")
+              print("Enter the most apporiate number input as if why you gave the rating:"
+                    "1: I don't like it at all, jokes were too easy, waste of time, and I didn't like the chatbot at all. Joke challenge was so hard couldn't answer it, 10 seconds was way too short for me"
+                    "2: I like it, just bored, feels like I'm talking to a boring person who isn't funny at all"
+                    "3: It's okay, I like the joke challenge feature, that question was too easy for me! Heck, I answered in like 2 seconds LOL"
+                    "4: I LOVE IT, Well, almost, the joke challenge was way too easy for me, it needs to be a A LOT HARDER & A LOT Less time to figure it out, well for me I type very fast, but for others, they know the answer but they still need time typing, so I guess try to increase the time a bit")
+            my_opinion = input("Enter your opinion on this chatbot:")
+            if my_opinion == "1":
+              print('''
+                 ▄████████    ▄█   ▄█▄  ▄█   ▄█        ▄█       
+  ███    ███   ███ ▄███▀ ███  ███       ███       
+  ███    █▀    ███▐██▀   ███▌ ███       ███       
+  ███         ▄█████▀    ███▌ ███       ███       
+▀███████████ ▀▀█████▄    ███▌ ███       ███       
+         ███   ███▐██▄   ███  ███       ███       
+   ▄█    ███   ███ ▀███▄ ███  ███▌    ▄ ███▌    ▄ 
+ ▄████████▀    ███   ▀█▀ █▀   █████▄▄██ █████▄▄██
+              
+              ''')
+              print('''
+               ▄█     ▄████████    ▄████████ ███    █▄     ▄████████ 
+███    ███    ███   ███    ███ ███    ███   ███    ███ 
+███▌   ███    █▀    ███    █▀  ███    ███   ███    █▀  
+███▌   ███          ███        ███    ███  ▄███▄▄▄     
+███▌ ▀███████████ ▀███████████ ███    ███ ▀▀███▀▀▀     
+███           ███          ███ ███    ███   ███    █▄  
+███     ▄█    ███    ▄█    ███ ███    ███   ███    ███ 
+█▀    ▄████████▀   ▄████████▀  ████████▀    ██████████
+              
+            ''')
+            elif my_opinion == "2":
+              print("I'm a chatbot, I'm not a human, I don't ahve any emotions, but don't call me boring at least, the jokebot was funny if u actually have a sense of humor, which in this, I assume u don't. ROASTED & TOASTED!")
+            elif my_opinion == "3":
+              print("Next time I'll give u ultra-hard one & u'll have only 5 seconds to answer, how bout' that?")
+            elif my_opinion == "4":
+              print("THAT'S WHAT IM TALKIN ABOUT")
         
-        elif joke_input == "script":
-        print("--------START OF SCRIPT-----------")
-        with open("saved_jokes.txt", "r") as f:
-          j = f.readline()
-          if j.strip() == "":
-            print("Hello, I am a comedian, I am here to tell you some jokes. Ooops! I don't have any jokes to tell you. Sorry!")
-          else:
-            jokes = []
-            while j != "":
-              jokes.append(j)
-              j = f.readline()
-            if len(jokes) == 1:
-              print("Hello! They paid me $20 to perform tonight, but I charge $20 per joke, so you only get one. Here goes:")
-              print(jokes[0].strip())
-              print("Haha, I know that was funny! That's all from me folks. Bye!")
-            elif len(jokes) == 2:
-              print("Hello! You are listening to me the comedian, I am here to tell you some jokes. Here goes: ") 
-              print(jokes[0].strip())
-              print("Haha, I bet you laughed! And if that one didn't make you pee your pants, here's another one:")
-              print(jokes[1].strip())
-              print("Alrighty folks, if you need me, I'll be at the bar half-joking and half-crying questioning the life decisions that got me here.")
-            else:
-              import random
-              random.shuffle(jokes)
-              print("Hello! It's me again! I've respawned! Who would've thought?! Seriously?! I know you want me here! I know you like me, so here's something so funny that'll never make you stop laughing:")
-              print(jokes[0].strip())
-              print("Heheheha!")
-              print(jokes[1].strip())
-              print("So funny right?")
-              print(jokes[2].strip())
-              print("OMG! It made you pee! Not sorry! Bye!")
-        print("--------END OF SCRIPT-----------")
+      
       elif joke_input == "unsave":
         while True:
           try:

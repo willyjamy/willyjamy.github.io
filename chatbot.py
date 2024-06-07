@@ -208,7 +208,7 @@ def run():
             if int(rating) < 5 and int(rating) > 0:
               print("Please enter a number from 1-5")
               print("Enter the most apporiate number input as if why you gave the rating:"
-                    "1: I don't like it at all, jokes were too easy, waste of time, and I didn't like the chatbot at all. Joke challenge was so hard couldn't answer it, 10 seconds was way too short for me"
+                    "1: I don't like it at all, jokes were too hard, waste of time, and I didn't like the chatbot at all. Joke challenge was so hard couldn't answer it, 10 seconds was way too short for me"
                     "2: I like it, just bored, feels like I'm talking to a boring person who isn't funny at all"
                     "3: It's okay, I like the joke challenge feature, that question was too easy for me! Heck, I answered in like 2 seconds LOL"
                     "4: I LOVE IT, Well, almost, the joke challenge was way too easy for me, it needs to be a A LOT HARDER & A LOT Less time to figure it out, well for me I type very fast, but for others, they know the answer but they still need time typing, so I guess try to increase the time a bit")

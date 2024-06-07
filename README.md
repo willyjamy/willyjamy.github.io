@@ -36,6 +36,8 @@ Week of 6/3:
 
 6/3-Day 3: I forgot to update my github files this weekend when I made new changes on replit, I will try my best to update all of them on my .py file today in class. Anything that's left over and hasn't been updated yet during class will definitely be updated afterschool today & will be finished before school tomorrow. More specificially, I will update new stuff from replit such as the rate the chatbot feature that I finished last week, as well as one of the best things I think to make it more fun & realistic: timed challenge. As the name suggests, timed challenge is a 10 second feature on my joke challenge feature when the user must correctly type in the joke's answer under 10 seconds. From there on, they will receive 5 stars. If they get it wrong in under 10 seconds they will get no stars. Even if they answered it right but over 10 seconds they won't receive any stars either. This has created many excitement amongst the people that's played the game. 
 
+6/6: Presented in class, final project
+
 SOURCES: 
          
 https://www.geeksforgeeks.org/get-post-requests-using-python/amp/

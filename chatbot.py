@@ -62,6 +62,8 @@ oo $ $ "$      o$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$o       $$$o$$o$
 
 ''')
 
+https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
+
 def run():
   print("Welcome to the chat bot, I'll make u laugh!")
 
@@ -69,6 +71,8 @@ def run():
     with open("saved_jokes.txt", "w"):
       pass
 
+  https://m.youtube.com/watch?v=2v80VM1lDjQ&pp=ygUOUHl0aG9uIG9zIHBhdGg%3D
+  
   list = []
   
   while True:
@@ -85,6 +89,8 @@ def run():
       res = requests.get(url)
       data = json.loads(res.text)
 
+    #https://www.youtube.com/watch?app=desktop&v=-51jxlQaxyA
+    
     if data["error"] == True:
       print("Error: " + data["message"])
       continue
@@ -102,6 +108,9 @@ def run():
     print()
     list.append(data)
 
+    #https://docs.python.org/3.11/distutils/setupscript.html
+    #https://stackoverflow.com/questions/843751/list-append-or-list
+    
     while True:
       joke_input = input("Do you want to hear another joke? Type no to exit, type save to save a joke, type unsave to unsave a joke, type saved to see the saved jokes, rate to rate this chatbot, script to get a funny quote and anything else to continue, challenge to see if you can answer a joke correctly on your own, rate to rate the chatbot:\n").lower()
       if joke_input == "no":
@@ -117,6 +126,9 @@ def run():
             joke = "Setup: " + setup + " Delivery: " + delivery
             f.write(joke.replace("\n", " ") + "\n")
             print("Saved joke to saved_jokes.txt")
+
+      #https://m.youtube.com/watch?v=KGw7ppL1ntc&pp=ygURUHl0aG9uIHdpdGggb3BlbiA%3D      
+      #https://stackoverflow.com/questions/56198802/python-f-string-replacing-newline-linebreak
       
       elif joke_input == "saved":
         with open("saved_jokes.txt", "r") as f:
@@ -130,6 +142,9 @@ def run():
               print(str(k) + ": " + j)
               j = f.readline()
               k += 1
+
+       #https://www.youtube.com/watch?app=desktop&v=crluPcyuchU
+       #https://www.youtube.com/watch?v=jBR5HnKfqCU
 
       elif joke_input == "joke challenge".lower():
         stars = 0 
@@ -187,6 +202,8 @@ def run():
         answer_input = input("Enter your answer: ")
         after = datetime.datetime.now()
 
+        #https://stackoverflow.com/questions/415511/how-do-i-get-the-current-time-in-python
+
         if (after - before).seconds >= 10:
           print("TIME'S UP, YOU DIDN'T ANSWER IN TIME, U EARNED NO STARS :(")
         elif answer_input == "No but April May".lower():
@@ -212,7 +229,7 @@ def run():
                     "2: I like it, just bored, feels like I'm talking to a boring person who isn't funny at all"
                     "3: It's okay, I like the joke challenge feature, that question was too easy for me! Heck, I answered in like 2 seconds LOL"
                     "4: I LOVE IT, Well, almost, the joke challenge was way too easy for me, it needs to be a A LOT HARDER & A LOT Less time to figure it out, well for me I type very fast, but for others, they know the answer but they still need time typing, so I guess try to increase the time a bit")
-            my_opinion = input("Enter your opinion on this chatbot:")
+            my_opinion = input("Enter your opinion as a number that best fits your thought:")
             if my_opinion == "1":
               print('''
                  ▄████████    ▄█   ▄█▄  ▄█   ▄█        ▄█       
@@ -242,7 +259,8 @@ def run():
               print("Next time I'll give u ultra-hard one & u'll have only 5 seconds to answer, how bout' that?")
             elif my_opinion == "4":
               print("THAT'S WHAT IM TALKIN ABOUT")
-        
+
+      #https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
       
       elif joke_input == "unsave":
         while True:
@@ -272,5 +290,9 @@ def run():
           break
       else:
         break
-        
+
+#https://www.youtube.com/watch?app=desktop&v=KGw7ppL1ntc
+#https://rollbar.com/blog/python-valueerror/
+#https://www.youtube.com/watch?v=t6rIQlwDnpQ
+
 run()
